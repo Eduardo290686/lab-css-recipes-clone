@@ -1,0 +1,106 @@
+/*************full-document-style**************/
+
+html {
+  font-family: Geneva, Verdana, sans-serif;
+  font-size: 10px;
+}
+
+/********************title-and-image*********************/
+
+.title-and-image {
+  background-image: url("../images/apple-pie.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-and-image h1 {
+  color: white;
+  text-align: center;
+  font-size: 6rem;
+}
+
+/***********************second-box-container*************************/
+
+.second-container {
+  padding: 5rem 12rem 0rem 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-paragraph-container {
+  margin-bottom: 3rem;
+}
+
+.first-paragraph-container p {
+  font-size: 1.6rem;
+  line-height: 1.7rem;
+}
+
+.info-container {
+  padding: 0rem 17rem 1rem 17rem;
+  border-bottom: 2px solid rgb(185, 185, 185);
+}
+
+.info-container img {
+  width: 25rem;
+}
+
+/***********************third-box-container*************************/
+
+.third-container {
+  padding: 5rem 12rem 0rem 12rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.third-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.third-container ul {
+  margin-left: 1rem;
+}
+
+.third-container li:before {
+  content: "-";
+  margin-right: 0.3rem;
+}
+
+.third-container li {
+  font-size: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.ingredients {
+  width: 70vw;
+  margin-bottom: 3rem;
+}
+
+/***********************fourth-box-container*************************/
+
+.fourth-container {
+  padding: 5rem 12rem;
+}
+
+.directions h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.instructions ul {
+  margin-left: 2rem;
+}
+
+.instructions li {
+  list-style-type: decimal;
+  margin-right: 0.3rem;
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+  line-height: 1.5rem;
+}
