@@ -19,13 +19,13 @@ html {
 .title-and-image h1 {
   color: white;
   text-align: center;
-  font-size: 6rem;
+  font-size: 8rem;
 }
 
 /***********************second-box-container*************************/
 
 .second-container {
-  padding: 5rem 12rem 0rem 12rem;
+  padding: 5rem 20rem 0rem 20rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,8 +36,8 @@ html {
 }
 
 .first-paragraph-container p {
-  font-size: 1.6rem;
-  line-height: 1.7rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
 
 .info-container {
@@ -46,21 +46,21 @@ html {
 }
 
 .info-container img {
-  width: 25rem;
+  width: 35rem;
 }
 
 /***********************third-box-container*************************/
 
 .third-container {
-  padding: 5rem 12rem 0rem 12rem;
+  padding: 5rem 20rem 0rem 20rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .third-container h2 {
-  font-size: 1.5rem;
-  margin-bottom: 0.8rem;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .third-container ul {
@@ -73,8 +73,8 @@ html {
 }
 
 .third-container li {
-  font-size: 1.2rem;
-  margin-bottom: 0.4rem;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
 }
 
 .ingredients {
@@ -85,12 +85,12 @@ html {
 /***********************fourth-box-container*************************/
 
 .fourth-container {
-  padding: 5rem 12rem;
+  padding: 5rem 20rem;
 }
 
 .directions h2 {
-  font-size: 1.5rem;
-  margin-bottom: 0.8rem;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .instructions ul {
@@ -100,7 +100,7 @@ html {
 .instructions li {
   list-style-type: decimal;
   margin-right: 0.3rem;
-  font-size: 1.2rem;
-  margin-bottom: 0.2rem;
-  line-height: 1.5rem;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  line-height: 2.2rem;
 }
